@@ -15,10 +15,10 @@ root = Tk()
 root.title("LED Toggler")
 
 # Set the window size
-root.geometry("400x200")  # Width x Height
+root.geometry("400x200") 
 
 # Define a custom font for the buttons
-myFont = FONT.Font(family='Helvetica', size=14, weight="bold")
+myFont = FONT.Font(family='Calibri', size=14, weight="bold")
 
 # Evwnt functions to glow LEDs
 def led_toggle(led, button, other_leds):
